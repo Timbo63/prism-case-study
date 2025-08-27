@@ -89,4 +89,4 @@ The healthcare AI market is growing to $60B by 2030, but existing solutions are 
 
 ### ROI Calculation
 - **Net Profit:** $250K
-- **Investment:** $2
+- **Investment:** $250K
