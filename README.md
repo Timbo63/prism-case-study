@@ -90,3 +90,14 @@ The healthcare AI market is growing to $60B by 2030, but existing solutions are 
 ### ROI Calculation
 - **Net Profit:** $250K
 - **Investment:** $250K
+- ## Intellectual Property Notice
+
+© 2025 TAS Business Solutions LLC - All rights reserved. This case study and the PRISM platform concept represent original work developed as part of an academic capstone project. The ideas, methodologies, business model, and technical specifications contained herein are the intellectual property of TAS Business Solutions LLC. 
+
+**Please respect our work:** While this case study is shared publicly for portfolio and educational purposes, unauthorized commercial use, reproduction, or implementation of the PRISM platform concept without permission is prohibited.
+
+For collaboration opportunities or licensing inquiries, please contact the project team.
+
+---
+
+*This case study represents a comprehensive analysis of bringing AI-powered predictive intelligence to underserved mid-market healthcare organizations, with clear value propositions, realistic financial projections, and actionable implementation strategies.*
