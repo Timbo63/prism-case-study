@@ -96,7 +96,7 @@ The healthcare AI market is growing to $60B by 2030, but existing solutions are 
 
 **Please respect our work:** While this case study is shared publicly for portfolio and educational purposes, unauthorized commercial use, reproduction, or implementation of the PRISM platform concept without permission is prohibited.
 
-For collaboration opportunities or licensing inquiries, please contact the project team.
+For collaboration opportunities or licensing inquiries,  please contact the project team at : sharptimal@outlook.com.
 
 ---
 
