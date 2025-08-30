@@ -1,0 +1,168 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients and styles -->
+  <defs>
+    <!-- Modern gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Professional tech gradient for accents -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb" />
+      <stop offset="100%" style="stop-color:#7c3aed" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Drop shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" flood-opacity="0.1" stdDeviation="8"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern overlay -->
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+    <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Header Section -->
+  <rect x="0" y="0" width="1920" height="120" fill="#0f172a" opacity="0.8"/>
+  
+  <!-- PRISM Logo with light spectrum gradient -->
+  <defs>
+    <!-- Light spectrum gradient for logo (scientific prism effect) -->
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b" />
+      <stop offset="16.66%" style="stop-color:#ffa726" />
+      <stop offset="33.33%" style="stop-color:#ffeb3b" />
+      <stop offset="50%" style="stop-color:#66bb6a" />
+      <stop offset="66.66%" style="stop-color:#42a5f5" />
+      <stop offset="83.33%" style="stop-color:#ab47bc" />
+      <stop offset="100%" style="stop-color:#ec407a" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo prism shape -->
+  <g transform="translate(100, 60)">
+    <!-- Prism/diamond shape with light spectrum -->
+    <rect x="-35" y="-35" width="70" height="70" fill="url(#logoGradient)" transform="rotate(45)" filter="url(#glow)"/>
+    <!-- Light refraction effect -->
+    <path d="M 0,-35 L 35,0 L 0,0 Z" fill="white" opacity="0.3" transform="rotate(45)"/>
+    <!-- PRISM text below -->
+    <text y="55" text-anchor="middle" fill="#1d1d1f" font-family="Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="300" letter-spacing="0.5">PRISM</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="50" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold">AI Platform</text>
+  <text x="200" y="80" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">Predictive Revenue Intelligence for Confident Growth</text>
+  
+  <!-- Main Content Area -->
+  
+  <!-- Problem Section -->
+  <g transform="translate(100, 180)">
+    <rect x="0" y="0" width="800" height="300" rx="20" fill="#1e293b" opacity="0.8" filter="url(#shadow)"/>
+    <text x="40" y="50" fill="#ef4444" font-family="Arial, sans-serif" font-size="32" font-weight="bold">The Business Problem</text>
+    
+    <!-- Problem points -->
+    <circle cx="60" cy="100" r="5" fill="#ef4444"/>
+    <text x="80" y="108" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">Forecasting is inaccurate, reactive, and inefficient</text>
+    
+    <circle cx="60" cy="150" r="5" fill="#ef4444"/>
+    <text x="80" y="158" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">Sales leaders rely on gut instinct and static spreadsheets</text>
+    
+    <circle cx="60" cy="200" r="5" fill="#ef4444"/>
+    <text x="80" y="208" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">Results: Missed targets, hidden risks, wasted resources</text>
+  </g>
+  
+  <!-- Solution Section -->
+  <g transform="translate(1020, 180)">
+    <rect x="0" y="0" width="800" height="300" rx="20" fill="#1e293b" opacity="0.8" filter="url(#shadow)"/>
+    <text x="40" y="50" fill="#10b981" font-family="Arial, sans-serif" font-size="32" font-weight="bold">The PRISM Solution</text>
+    
+    <!-- Solution points -->
+    <circle cx="60" cy="100" r="5" fill="#10b981"/>
+    <text x="80" y="108" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">AI-powered revenue predictions with greater accuracy</text>
+    
+    <circle cx="60" cy="150" r="5" fill="#10b981"/>
+    <text x="80" y="158" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">Early risk signal identification</text>
+    
+    <circle cx="60" cy="200" r="5" fill="#10b981"/>
+    <text x="80" y="208" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="22">Proactive executive action recommendations</text>
+    
+    <text x="40" y="260" fill="#64748b" font-family="Arial, sans-serif" font-size="18" font-style="italic">"A crystal ball for sales executives -- built on data"</text>
+  </g>
+  
+  <!-- Benefits Section -->
+  <g transform="translate(100, 520)">
+    <rect x="0" y="0" width="1720" height="200" rx="20" fill="#1e293b" opacity="0.8" filter="url(#shadow)"/>
+    <text x="860" y="40" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Executive Benefits</text>
+    
+    <!-- Benefit cards -->
+    <g transform="translate(80, 80)">
+      <!-- Risk Mitigation -->
+      <rect x="0" y="0" width="380" height="80" rx="10" fill="#334155" opacity="0.8"/>
+      <text x="190" y="35" text-anchor="middle" fill="#2563eb" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Risk Mitigation</text>
+      <text x="190" y="60" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Spot risks early</text>
+      
+      <!-- Data-Driven Confidence -->
+      <rect x="420" y="0" width="380" height="80" rx="10" fill="#334155" opacity="0.8"/>
+      <text x="610" y="35" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Data-Driven Confidence</text>
+      <text x="610" y="60" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Replace intuition with AI clarity</text>
+      
+      <!-- Time Savings -->
+      <rect x="840" y="0" width="380" height="80" rx="10" fill="#334155" opacity="0.8"/>
+      <text x="1030" y="35" text-anchor="middle" fill="#0ea5e9" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Time Savings</text>
+      <text x="1030" y="60" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Automated insights vs. manual analysis</text>
+      
+      <!-- Scalability -->
+      <rect x="1260" y="0" width="380" height="80" rx="10" fill="#334155" opacity="0.8"/>
+      <text x="1450" y="35" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Scalability</text>
+      <text x="1450" y="60" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Works across teams &amp; regions</text>
+    </g>
+  </g>
+  
+  <!-- Roadmap Timeline -->
+  <g transform="translate(100, 760)">
+    <rect x="0" y="0" width="1720" height="180" rx="20" fill="#1e293b" opacity="0.8" filter="url(#shadow)"/>
+    <text x="860" y="40" text-anchor="middle" fill="url(#accentGradient)" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Strategic Roadmap</text>
+    
+    <!-- Timeline -->
+    <line x1="100" y1="100" x2="1620" y2="100" stroke="#475569" stroke-width="4"/>
+    
+    <!-- Today -->
+    <circle cx="200" cy="100" r="12" fill="#2563eb" filter="url(#glow)"/>
+    <text x="200" y="80" text-anchor="middle" fill="#2563eb" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Today</text>
+    <text x="200" y="140" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="14">Upload → Analyze → Predict</text>
+    
+    <!-- Next Phase -->
+    <circle cx="860" cy="100" r="12" fill="#64748b" filter="url(#glow)"/>
+    <text x="860" y="80" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Next Phase</text>
+    <text x="860" y="140" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="14">Scenario Planning &amp; Dashboards</text>
+    
+    <!-- Future -->
+    <circle cx="1520" cy="100" r="12" fill="#0ea5e9" filter="url(#glow)"/>
+    <text x="1520" y="80" text-anchor="middle" fill="#0ea5e9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Future Vision</text>
+    <text x="1520" y="140" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="14">CRM Integration &amp; Real-time</text>
+  </g>
+  
+  <!-- Call to Action -->
+  <g transform="translate(960, 980)" text-anchor="middle">
+    <rect x="-300" y="-30" width="600" height="80" rx="40" fill="url(#accentGradient)" filter="url(#shadow)"/>
+    <text x="0" y="10" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Enable Confident Growth with PRISM</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="960" y="1050" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="14">TAS Business Solutions LLC © 2025 -- Proprietary &amp; Confidential</text>
+</svg>
